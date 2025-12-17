@@ -14,7 +14,12 @@ The completed blades were tested in a wind tunnel across a range of free-stream 
 I worked on the aerodynamic modeling and performance analysis portions of the project, including calculating lift, drag, torque, and bending stress distributions along the blade span. I also contributed to interpreting wind tunnel data, generating power curves, and comparing experimental results against model predictions to diagnose sources of performance loss.
 
 ![Chord and Pitch Functions for U = 4.4m/s, 1800 RPM]({{ "/assets/images/Functions.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+**Chord and Pitch Functions for U = 4.4m/s, 1800 RPM**
+**--**
 
 ![Blade CAD, Left: Sketches and Guiding CurveCenter: View from Blade Tip, Right: View from Blade Hub]({{ "/assets/images/CAD.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+**Blade CAD, Left: Sketches and Guiding CurveCenter: View from Blade Tip, Right: View from Blade Hub**
+**--**
 
 ![Power Curves for Likely U Range from Weibull and Power Curves up to U = 12.2 m/s]({{ "/assets/images/Weiball.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+**Power Curves for Likely U Range from Weibull and Power Curves up to U = 12.2 m/s**
