@@ -8,3 +8,16 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;      /* key line */
+  object-fit: cover;  /* makes thumbnails look clean */
+  display: block;
+  border-radius: 10px;
+}
