@@ -2,7 +2,7 @@
 layout: project
 title: Wind Turbine Blade Design and Testing
 description: MAE 4272: Fluids and Heat Transfer Laboratory
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/turbine.jpg
 ---
 
 As part of MAE 4272, our team designed, fabricated, and experimentally tested a three-blade wind turbine intended to maximize power extraction at a specified operating RPM under realistic wind conditions. The design target was informed by a Weibull probability distribution of free-stream wind speeds, reflecting how wind energy systems operate in practice rather than at a single idealized velocity. In addition to aerodynamic performance, the blade was required to meet strict geometric, RPM, and structural stress constraints to ensure safe operation in a wind tunnel environment.
