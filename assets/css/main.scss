@@ -8,36 +8,16 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
-/* Projects page: make cards readable */
-.project-link {
-  text-decoration: none !important;
-  color: #111 !important;
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;      /* key line */
+  object-fit: cover;  /* makes thumbnails look clean */
   display: block;
+  border-radius: 10px;
 }
-
-.project-card {
-  border: 1px solid rgba(0,0,0,0.18);
-  border-radius: 12px;
-  padding: 16px;
-  background: #fff;
-}
-
-.project-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.3;
-  color: #111 !important;
-}
-
-.project-desc {
-  margin-top: 6px;
-  opacity: 0.85;
-  color: #111 !important;
-}
-
-/* In case a global rule is blanking text inside links */
-.project-link * {
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
